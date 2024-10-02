@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<body>
+   <h1> Jogos escolares </h1>
+
+    <script> 
+     let opc = prompt("Digite 1 para a corrida e 2 para a natação")
+
+     if(opc == "1") { 
+        document.write("Corrida<br>")
+        let nome = prompt("Digite o seu nome")
+        let sexo = prompt("Informe o sexo")
+        let idade =  parseInt(prompt("Digite a sua idade"))
+     if (idade <= 7) { 
+        document.write("Idade: "+idade+" Categoria: Leite<br>")
+    } else { 
+        document.write("Idade: "+idade+" Categoria: Juvenil<br>")
+    }
+ } else {
+    document.write("Natação<br>")
+    let nome = prompt("Digite o seu nome ")
+    let sexo = prompt("Informe o sexo")
+    let idade = parseInt(prompt(" Digite a sua idade"))
+     if(idade <= 7) { 
+        document.write("Idade: "+idade+" Categoria: Leite<br>")
+     } else {
+        document.write("Idade: "+idade+" Categoria: Juvenil<br>")
+     }
+ }
+    </script>
+</body>
+</html>
+
