@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <title>  </title>
+    <h1> oieeeeeeeeeeeeeeeeeeeeeeeee </h1>
+</body>
+</html>
+
+<script> 
+
+document.write("escolha uma opçao: 1-cadastro, 2-notas, 3-atualizadados<br>")
+let opc = parseInt(prompt("digite a opçao escolhida"))
+
+switch(opc) {
+    case 1:
+        let nome = prompt("digite o nome do aluno")
+        let idade = parseInt(prompt("digite a idade do aluno"))
+        document.write("nome:"+nome+"<br>")
+        document.write("idade:"+idade+"<br>")
+    break;
+    case 2:
+        let nota1 = parseInt(prompt("digite a primeira nota do aluno"))
+        let nota2 = parseInt(prompt("digite a segunda nota do aluno"))
+        let soma = nota1 + nota2 
+        document.write("soma:"+soma)
+    break;
+
+    default:
+        console.log("atualizar dados")
+    break;
+}
+
+</script>
